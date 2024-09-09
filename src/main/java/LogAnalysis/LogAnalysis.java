@@ -136,7 +136,7 @@ public class LogAnalysis {
     private String[] parseEntry(String entry){
         String[] parsed = entry.split(" ");
         // invalid data points for dstport, and protocol only
-        if(parsed.length < 7 || parsed[6] == null || !isPosInteger(parsed[6])
+        if(parsed.length != 14 || parsed[6] == null || !isPosInteger(parsed[6])
             || parsed[7] == null || parsed[7].isEmpty() || !protocolMapping.containsKey(parsed[7])) {
             return null;
         }
