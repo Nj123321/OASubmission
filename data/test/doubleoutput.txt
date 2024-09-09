@@ -1,0 +1,30 @@
+Tag Counts:
+Tag,Count
+sv_p2,2
+sv_p1,2
+sv_p5,2
+email,3
+testtagtwo,1
+Untagged,9
+testtag,1
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+993,tcp,1
+33,rsvp-e2e-ignore,1
+110,tcp,1
+3389,tcp,2
+49154,tcp,1
+80,tcp,1
+143,tcp,1
+49156,tcp,1
+49158,tcp,1
+42,reserved,1
+1024,tcp,1
+49153,tcp,1
+68,gmtp,1
+49155,tcp,1
+25,tcp,1
+443,tcp,1
+68,udp,1
+23,tcp,1
+49157,tcp,1
