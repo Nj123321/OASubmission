@@ -4,7 +4,8 @@
   AWS protocol mapping in data/protocol-numbers.csv, and outputting to output.txt
 - tests are in src/test/ with data & output in data/test. The tests that were done include 
   checking for correctness (with invalid logs, different protocols, multiple mappings),
-  checking for fileoutput collisions, checking for empty filelogs, and invalid input (Junit depency is used for testing)
+  checking for fileoutput collisions, checking for empty filelogs, and invalid input 
+  (just Junit dependency is used for testing - hopefully ok :) )
 - NOTE: when running LogParsing solution multiple times, make sure to delete the previous outputfile
    or change the outputfile name. This is because LogParsing is designed not to allow overriding
    previous summaries for safety.
